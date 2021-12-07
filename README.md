@@ -1,8 +1,9 @@
 # @hexagon/base64-arraybuffer
 
 ![CI](https://github.com/hexagon/base64-arraybuffer/workflows/CI/badge.svg?branch=master)
-[![NPM Downloads](https://img.shields.io/npm/dm/@hexagon/base64-arraybuffer.svg)](https://www.npmjs.org/package/@hexagon/base64-arraybuffer)
 [![NPM Version](https://img.shields.io/npm/v/@hexagon/base64-arraybuffer.svg)](https://www.npmjs.org/package/@hexagon/base64-arraybuffer)
+[![NPM Downloads](https://img.shields.io/npm/dm/@hexagon/base64-arraybuffer.svg)](https://www.npmjs.org/package/@hexagon/base64-arraybuffer)
+[![](https://data.jsdelivr.com/v1/package/npm/@hexagon/base64-arraybuffer/badge)](https://www.jsdelivr.com/package/npm/@hexagon/base64-arraybuffer)
 
 Encode/decode base64 or base64url data into ArrayBuffers.
 

@@ -11,7 +11,11 @@ This is basically [github.com/niklasvh/base64-arraybuffer](https://github.com/ni
 ### Installing
 You can install the module via npm:
 
-    npm install @hexagon/base64-arraybuffer
+```npm install @hexagon/base64-arraybuffer```
+
+Or download/link it from a CDN
+
+[www.jsdelivr.com/package/npm/@hexagon/base64-arraybuffer?path=dist](https://www.jsdelivr.com/package/npm/@hexagon/base64-arraybuffer?path=dist)
   
 ## API
 The library encodes and decodes base64/base64url to and from ArrayBuffers

@@ -9,15 +9,34 @@ Encode/decode base64 or base64url data into ArrayBuffers.
 This is basically [github.com/niklasvh/base64-arraybuffer](https://github.com/niklasvh/base64-arraybuffer), but with added base64url support.
 
 ### Installing
+
+#### Node 
 You can install the module via npm:
 
 ```npm install @hexagon/base64-arraybuffer```
 
-Or download/link it from a CDN
+```javascript
+const base64 = require('@hexagon/base64-arraybuffer');
+
+const result = base64.encode("Hello World!");
+const resultUrl = base64.encode("Hello World!", true);
+```
+
+#### CDN / Browser / Deno
 
 [www.jsdelivr.com/package/npm/@hexagon/base64-arraybuffer?path=dist](https://www.jsdelivr.com/package/npm/@hexagon/base64-arraybuffer?path=dist)
-  
+
+In a browser, you normally want ```/dist/base64-arraybuffer.umd.js``` which will register a global object named ```base64``` 
+
+```javascript
+// Global object base64 available
+
+const result = base64.encode("Hello World!");
+const resultUrl = base64.encode("Hello World!", true);
+```
+
 ## API
+
 The library encodes and decodes base64/base64url to and from ArrayBuffers
 
  - __encode(buffer)__ - Encodes `ArrayBuffer` into base64 string
@@ -27,6 +46,7 @@ The library encodes and decodes base64/base64url to and from ArrayBuffers
  - __decode(str, true)__ - Decodes base64url string to `ArrayBuffer`
 
 ### Testing
+
 You can run the test suite with:
 
     npm test

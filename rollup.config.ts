@@ -15,7 +15,7 @@ const banner = `/*
 export default {
     input: `src/index.ts`,
     output: [
-        { file: pkg.main, name: pkg.name, format: 'umd', banner, sourcemap: true },
+        { file: pkg.main, name: 'base64', format: 'umd', banner, sourcemap: true },
         { file: pkg.module, format: 'esm', banner, sourcemap: true },
     ],
     external: [],

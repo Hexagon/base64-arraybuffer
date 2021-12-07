@@ -6,10 +6,12 @@
 
 Encode/decode base64 or base64url data into ArrayBuffers.
 
+This is basically [github.com/niklasvh/base64-arraybuffer](https://github.com/niklasvh/base64-arraybuffer), but with added base64url support.
+
 ### Installing
 You can install the module via npm:
 
-    npm install base64-arraybuffer
+    npm install @hexagon/base64-arraybuffer
   
 ## API
 The library encodes and decodes base64/base64url to and from ArrayBuffers
@@ -26,5 +28,8 @@ You can run the test suite with:
     npm test
 
 ## License
+Copyright (c) 2021 Hexagon
+Licensed under the MIT license.
+
 Copyright (c) 2012 Niklas von Hertzen
 Licensed under the MIT license.

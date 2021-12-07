@@ -1,22 +1,27 @@
 {
-  "name": "base64-arraybuffer",
-  "description": "Encode/decode base64 data into ArrayBuffers",
+  "name": "@hexagon/base64-arraybuffer",
+  "description": "Encode/decode base64 and base64url data into ArrayBuffers",
   "main": "dist/base64-arraybuffer.umd.js",
   "module": "dist/base64-arraybuffer.es5.js",
   "typings": "dist/types/index.d.ts",
-  "version": "1.0.1",
-  "homepage": "https://github.com/niklasvh/base64-arraybuffer",
+  "version": "2.0.0",
+  "homepage": "https://github.com/hexagon/base64-arraybuffer",
   "author": {
+    "name": "Hexagon",
+    "email": "hexagon@56k.guru",
+    "url": "https://github.com/hexagon"
+  },
+  "contributors": [{
     "name": "Niklas von Hertzen",
     "email": "niklasvh@gmail.com",
     "url": "https://hertzen.com"
-  },
+  }],
   "repository": {
     "type": "git",
-    "url": "https://github.com/niklasvh/base64-arraybuffer"
+    "url": "https://github.com/hexagon/base64-arraybuffer"
   },
   "bugs": {
-    "url": "https://github.com/niklasvh/base64-arraybuffer/issues"
+    "url": "https://github.com/hexagon/base64-arraybuffer/issues"
   },
   "license": "MIT",
   "engines": {
